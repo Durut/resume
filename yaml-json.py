@@ -8,9 +8,7 @@ def json_to_yaml(path):
     with open(path) as f:
         data = json.load(f)
 
-    path_ = re.sub(
-        '.json$', '.yaml', path, count=1, flags=re.IGNORECASE
-    )
+    path_ = re.sub('.json$', '.yaml', path, count=1, flags=re.IGNORECASE)
 
     with open(path_, 'w') as g:
         yaml.dump(data, g, indent=2)
@@ -19,9 +17,7 @@ def yaml_to_json(path):
     with open(path) as f:
         data = yaml.load(f)
 
-    path_ = re.sub(
-        '.yaml$', '.json', path, count=1, flags=re.IGNORECASE
-    )
+    path_ = re.sub('.yaml$', '.json', path, count=1, flags=re.IGNORECASE)
 
     with open(path_, 'w') as g:
         json.dump(data, g, indent=2)
