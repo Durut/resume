@@ -1,14 +1,29 @@
 #!/usr/bin/env python
 import json
+from os.path import exists
 import re
 import sys
 import yaml
+
+def check_overwrite(path):
+    prompt = '{} exists. Overwrite [y/N]? '.format(path)
+    if not exists(path):
+        return True
+
+    elif input(prompt).lower()[:1] == 'y':
+        print('Overwriting...')
+        return True
+
+    return False
 
 def json_to_yaml(path):
     with open(path) as f:
         data = json.load(f)
 
     path_ = re.sub('.json$', '.yaml', path, count=1, flags=re.IGNORECASE)
+
+    if not check_overwrite(path_):
+        return
 
     with open(path_, 'w') as g:
         yaml.dump(data, g, indent=2)
@@ -18,6 +33,9 @@ def yaml_to_json(path):
         data = yaml.load(f)
 
     path_ = re.sub('.yaml$', '.json', path, count=1, flags=re.IGNORECASE)
+
+    if not check_overwrite(path_):
+        return
 
     with open(path_, 'w') as g:
         json.dump(data, g, indent=2)
