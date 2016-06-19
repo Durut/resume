@@ -1,0 +1,121 @@
+{
+  "education": [
+    {
+      "studyType": "Bachelor",
+      "courses": [],
+      "institution": "BITS Pilani, Goa Campus, India",
+      "area": "Electrical and Electronics Engineering",
+      "startDate": "2005-08",
+      "endDate": "2009-06",
+      "gpa": "8.31"
+    }
+  ],
+  "publications": [],
+  "basics": {
+    "name": "Puneeth Chaganti",
+    "phone": "+91 (996) 757 6569",
+    "location": {
+      "postalCode": "560041",
+      "countryCode": "IN",
+      "city": "Bangalore",
+      "address": "#1064/B, 27 Main, 39 Cross, Jayanagar 9th Block,",
+      "region": "Karnataka"
+    },
+    "summary": "Puneeth hails from Hyderabad, India. FIXME ?!?!!!",
+    "profiles": [
+      {
+        "url": "https://twitter.com/punchagan",
+        "username": "punchagan",
+        "network": "Twitter"
+      },
+      {
+        "url": "https://github.com/punchagan",
+        "username": "punchagan",
+        "network": "GitHub"
+      }
+    ],
+    "picture": "",
+    "website": "https://punchagan.muse-amuse.in",
+    "email": "punchagan@muse-amuse.in",
+    "label": "Programmer"
+  },
+  "awards": [],
+  "languages": [],
+  "references": [
+    {
+      "name": "",
+      "reference": "Provided on request"
+    }
+  ],
+  "work": [
+    {
+      "position": "Machine Learning Engineer",
+      "website": "http://infilect.com/",
+      "highlights": [
+        "Learnt about and experimented with Convolutional Neural Networks for image based tasks.",
+        "Built a system to search for similar fashion items from a database of products using Neural hash codes of images and fashion attributes.",
+        "Improved the data collection platform to aggregate data into the fashion database."
+      ],
+      "company": "Infilect Technologies Private Limited",
+      "summary": null,
+      "startDate": "2015-07",
+      "endDate": "2016-03"
+    },
+    {
+      "position": "Software Developer",
+      "website": "https://www.enthought.com/",
+      "highlights": [],
+      "company": "Enthought, Inc",
+      "summary": "Helped build a Qt (PySide) based development environment for Scientists/Engineers.  Also helped develop the initial design and build the first cut of an application deployment platform for Python based apps.  Gained some taste for good design, while working here.",
+      "startDate": "2011-09",
+      "endDate": "2014-05"
+    },
+    {
+      "position": "Software Developer FIXME",
+      "website": "http://fossee.in",
+      "highlights": [],
+      "company": "FOSSEE",
+      "summary": "Designed and developed material & helped conduct workshops to train college level teachers and students in using Python for Scientific Computing.",
+      "startDate": "2009-07",
+      "endDate": "2011-07"
+    },
+    {
+      "position": "Recurser FIXMEE",
+      "website": "https://recurse.com",
+      "company": "RC",
+      "summary": "Recurse Center is a collaborative, self-directed, 12-week programming retreat. I spent my time getting more familiar with functional programming, the internals of Python, and building things using embedded hardware.",
+      "startDate": "2014-06",
+      "endDate": "2014-08"
+    }
+  ],
+  "volunteer": [],
+  "skills": [
+    {
+      "name": "Web Development",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "level": "Master"
+    },
+    {
+      "name": "Compression",
+      "keywords": [
+        "Mpeg",
+        "MP4",
+        "GIF"
+      ],
+      "level": "Master"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ]
+}
